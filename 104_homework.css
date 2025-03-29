@@ -1,0 +1,79 @@
+.content {
+  width: 1200px;
+  padding: 0 30px;
+  margin: 100px auto 0;
+  border: 1px solid rgb(245, 245, 245);
+  border-radius: 15px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.content-title {
+  display: flex;
+  width: 1140px;
+  font-weight: 700;
+  margin: 18px auto 0;
+  justify-content: space-between;
+}
+
+.content h2 {
+  font-size: 30px;
+  line-height: 28px;
+}
+
+.content-login-btn {
+  width: 132px;
+  font-weight: 700;
+}
+
+.content-login-btn a {
+  font-size: 16px;
+  line-height: 28px;
+  color: #1654b9;
+}
+
+.content-login-btn span {
+  font-size: 20px;
+  color: #1654b9;
+}
+
+.content-box-area {
+  display: flex;
+  flex-wrap: wrap;
+  width: 1140px;
+  margin: 100px auto 10px;
+}
+
+.content-box-area .content-box {
+  width: 265px;
+  margin: 10px;
+  padding: 20px;
+  border: 1px solid rgb(197, 197, 197);
+  border-radius: 15px;
+}
+
+.content-box p {
+  color: #1654b9;
+  font-size: 16px;
+  font-weight: 700;
+  padding: 5px 0;
+}
+
+.content-box span {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.content-box span + span {
+  border-left: 1px solid rgb(197, 197, 197);
+}
+
+.content-box .content-box-salary {
+  color: #ff7800;
+}
+
+.content-bottom-a {
+  color: rgb(90, 89, 89);
+  font-weight: 700;
+  text-align: center;
+  margin-bottom: 10px;
+}
